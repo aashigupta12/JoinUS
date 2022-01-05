@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\gaMes"
+		},
+		{
+			"path": "..\\..\\mysql-test"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "joinUs"
+	}
+}

@@ -1,0 +1,27 @@
+<head>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <link rel="stylesheet" href="/app.css">
+</head>
+
+<body>
+    <div class="flex-container">
+    <div class="container">
+    <h1>JOIN US</h1>
+    <p class="lead">Enter your email to join <strong><%=data%></strong>
+      others on our wait list. We are 100% not a cult. </p>
+    <form method="POST" action="/register">
+      <div>
+        <input type="text" name="name" class="form" placeholder="Enter your name">
+      </div>
+      <div>
+      <input type="text" name="email" class="form" placeholder="Enter your email">
+      
+      </div>
+    <div class="modal-footer">
+      <button>Join Now</button>
+    </div>
+    
+    </form>
+    </div>
+    </div>
+</body>
